@@ -41,6 +41,7 @@ The ESP32 continuously monitors both inputs and evaluates their activity:
 3. If an input stays above a configurable frequency threshold for a defined time:
    - **Channel A → Switch OFF**
    - **Channel B → Switch ON**
+4. Once switched, the system waits until the signal drops below the threshold before re-arming
 
 This approach ensures:
 - Stable switching behavior
