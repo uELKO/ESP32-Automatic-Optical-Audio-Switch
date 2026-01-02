@@ -42,6 +42,6 @@ to the active (playing) channel.
 ---
 
 ## Documentation
-Detailed explanations, diagrams and project logs are available on Hackaday.io: **[Project page – Hackaday.io](LINK_HIER_EINFÜGEN)**
+Detailed explanations, diagrams and project logs are available on: **[Project page – Hackaday.io](https://hackaday.io/project/204791-automatic-optical-audio-switch-esp32)**
 
 ---
