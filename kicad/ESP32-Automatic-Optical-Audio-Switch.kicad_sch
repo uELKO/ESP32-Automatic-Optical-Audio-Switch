@@ -1456,7 +1456,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32-S3-ZERO:ESP32-S3-ZERO"
+		(symbol "ESP32-S3-ZERO:ESP32-C3-ZERO"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1472,7 +1472,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ESP32-S3-ZERO"
+			(property "Value" "ESP32-C3-ZERO"
 				(at -12.7 -20.32 0)
 				(effects
 					(font
@@ -1481,7 +1481,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "footprints:MODULE_ESP32-S3-ZERO"
+			(property "Footprint" "footprints:MODULE_ESP32-C3-ZERO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1649,7 +1649,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-S3-ZERO_0_0"
+			(symbol "ESP32-C3-ZERO_0_0"
 				(rectangle
 					(start -12.7 -17.78)
 					(end 12.7 17.78)
@@ -4966,263 +4966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32-S3-ZERO:ESP32-S3-ZERO")
-		(at 181.61 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30c8cf08-615b-4e0f-b1e4-01f5c798bebe")
-		(property "Reference" "U3"
-			(at 181.61 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-S3-ZERO"
-			(at 181.61 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MODULE_ESP32-S3-ZERO"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Waveshare Electronics"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.35mm"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" "ANA"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-Zero/Waveshare+Electronics/view-part/?ref=eda"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" "RODRIGO"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-Zero/Waveshare+Electronics/view-part/?ref=snap"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ESP32-S3-Zero"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "ESP32-S3 Mini Development Board, Based on ESP32-S3FH4R2 Dual-Core Processor, 240MHz Running Frequency, 2.4GHz Wi-Fi & Bluetooth 5"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Waveshare"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0b692bee-9897-42f7-a6f8-f7f0bed513f3")
-		)
-		(pin "6"
-			(uuid "ac5c31c3-ed25-442f-a6a7-cf8504655ab8")
-		)
-		(pin "9"
-			(uuid "f1ec8081-b571-4108-900d-5f07440c1dbf")
-		)
-		(pin "10"
-			(uuid "d52fce81-8371-49bf-b943-dc19a020dbdd")
-		)
-		(pin "5"
-			(uuid "4f8faaf0-ffc4-4acb-8b8a-7b742560f80f")
-		)
-		(pin "11"
-			(uuid "711916ac-d202-487d-92d2-3edb3465a4a9")
-		)
-		(pin "7"
-			(uuid "ec15f4cd-bb41-494b-bc8f-591fc55a5925")
-		)
-		(pin "2"
-			(uuid "8797e5ec-f0a8-49a8-8411-c1c12c3cc268")
-		)
-		(pin "5V"
-			(uuid "5a273333-ed42-4d37-bd87-49ea1c29a1bc")
-		)
-		(pin "RX"
-			(uuid "8cddae3d-7f0f-4559-9f92-5aecb6dcc38a")
-		)
-		(pin "TX"
-			(uuid "966c4f40-3a01-4253-bbf9-dc59743476be")
-		)
-		(pin "1"
-			(uuid "b3ae2ffe-7b63-4542-bd45-adb4106011a9")
-		)
-		(pin "4"
-			(uuid "267724ba-c353-4ab7-a56c-6f16d440637b")
-		)
-		(pin "3V3"
-			(uuid "81842f4f-d048-420d-9937-0a5551fa13a6")
-		)
-		(pin "8"
-			(uuid "60e22c61-b37f-4205-be3a-2ea16db9ee31")
-		)
-		(pin "GND"
-			(uuid "d4838cca-d1f3-4130-9f32-c0cc0a2c33f6")
-		)
-		(pin "13"
-			(uuid "cb627394-4d24-4dc6-9b34-4d98ffca7af2")
-		)
-		(pin "12"
-			(uuid "58b194af-6d01-4b8a-912e-1f7cfce1cf00")
-		)
-		(instances
-			(project ""
-				(path "/96571964-7e7c-41d9-ada8-4f7c8be336a3"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 43.18 0)
 		(mirror y)
@@ -5420,6 +5163,263 @@
 			(project "ESP32-Toslink-Switcher"
 				(path "/96571964-7e7c-41d9-ada8-4f7c8be336a3"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32-S3-ZERO:ESP32-C3-ZERO")
+		(at 181.61 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c0b01b7-c817-4d8a-9d07-e1a6f31784e0")
+		(property "Reference" "U3"
+			(at 181.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-C3-ZERO"
+			(at 181.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:MODULE_ESP32-C3-ZERO"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Waveshare Electronics"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.35mm"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-Zero/Waveshare+Electronics/view-part/?ref=eda"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-Zero/Waveshare+Electronics/view-part/?ref=snap"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ESP32-S3-Zero"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "ESP32-S3 Mini Development Board, Based on ESP32-S3FH4R2 Dual-Core Processor, 240MHz Running Frequency, 2.4GHz Wi-Fi & Bluetooth 5"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Waveshare"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7a78ac51-f80f-4892-8911-b2ed8a14ad8a")
+		)
+		(pin "3"
+			(uuid "799fbbcc-1542-4742-9788-271740f70def")
+		)
+		(pin "3V3"
+			(uuid "ea3368f3-599c-4ba4-ae36-9c3c8625c435")
+		)
+		(pin "7"
+			(uuid "c47e647b-2cbe-437e-985c-5b3bbdedaa87")
+		)
+		(pin "10"
+			(uuid "4101f75f-8628-4a26-bce6-d4d412024cd6")
+		)
+		(pin "13"
+			(uuid "bc58f09d-e26b-42db-95e3-bb5523df294f")
+		)
+		(pin "TX"
+			(uuid "a54a52d5-9d4a-4c0a-9405-b7ba778084af")
+		)
+		(pin "GND"
+			(uuid "d9c7548d-fc9f-4705-a9c6-399b8a61942a")
+		)
+		(pin "RX"
+			(uuid "1625f398-1612-4239-8473-cd44402c4678")
+		)
+		(pin "11"
+			(uuid "d9563db1-8a58-484a-a6e1-cef7aa23a5d7")
+		)
+		(pin "5"
+			(uuid "24f09bdb-af27-462d-9283-15d20f8cf4ff")
+		)
+		(pin "6"
+			(uuid "feb60277-2f75-4f2b-9695-3044cc6130cc")
+		)
+		(pin "1"
+			(uuid "b76bbf98-a529-40df-a776-5a540f243526")
+		)
+		(pin "12"
+			(uuid "a6fc661f-08cb-49ca-a66d-472a1f714580")
+		)
+		(pin "2"
+			(uuid "827eff36-78ac-4df9-b50f-47f546963cef")
+		)
+		(pin "9"
+			(uuid "02ef795d-dce3-4a69-83f4-48fa275e4f3c")
+		)
+		(pin "5V"
+			(uuid "5d3ee607-efe7-4c3c-a3f8-28e95d0854c5")
+		)
+		(pin "8"
+			(uuid "f5565a3b-cd8a-426b-af37-ed34ed7f11fd")
+		)
+		(instances
+			(project ""
+				(path "/96571964-7e7c-41d9-ada8-4f7c8be336a3"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7122,7 +7122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOP65P210X110-6N"
+		(property "Footprint" "SOP65P210X110-6N"
 			(at 144.78 213.03 0)
 			(effects
 				(font
