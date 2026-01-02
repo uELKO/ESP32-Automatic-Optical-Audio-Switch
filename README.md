@@ -1,5 +1,3 @@
-NOTE: WORK IN PROGRESS! MORE INFO COMING SOON.
-
 <img width="1199" height="518" alt="{8CCD83B7-7E51-4EB5-BC00-117256F870E5}" src="https://github.com/user-attachments/assets/b21e8832-3f45-458c-bbca-89d5a4615198" />
 
 ## Overview
