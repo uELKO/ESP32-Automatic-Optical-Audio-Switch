@@ -4,7 +4,7 @@
 
 The **Automatic Optical Audio Switch** is a compact, ESP32-based device that automatically switches between **two TOSLINK / SPDIF optical audio inputs** and routes the active signal to a **single optical output**.
 
-Instead of relying on manual buttons or audio decoding, the device detects **real signal activity** on each input and switches autonomously once a configurable condition is met.  
+Instead of relying on manual buttons or audio decoding, the device detects **signal activity** on each input and switches autonomously once a configurable condition (frequency) is met.  
 This makes it ideal for home audio setups where multiple optical sources are used but only one downstream optical input is available.
 
 The project is designed as a **DIY-friendly, low-cost solution**, fully configurable via **ESPHome**, Home Assistant, or a built-in web interface.
@@ -15,7 +15,7 @@ The project is designed as a **DIY-friendly, low-cost solution**, fully configur
 
 - Automatic switching between **2 optical audio inputs → 1 optical output**
 - Works with **TOSLINK / SPDIF** signals
-- Signal presence detection based on **pulse/frequency measurement**
+- Signal presence detection based on **frequency measurement**
 - Configurable per channel:
   - Frequency threshold
   - Minimum active time before switching
@@ -26,6 +26,12 @@ The project is designed as a **DIY-friendly, low-cost solution**, fully configur
   - Integrated web interface
 - No SPDIF decoding or audio processing required
 - Compact enclosure made from **3D-printed parts**
+
+### Physical Connections
+<img width="1133" height="421" alt="{75A2652D-B607-47E5-BACF-B1780177E79F}" src="https://github.com/user-attachments/assets/75cf7473-125e-4f13-a643-e44ace7cf6e6" />
+
+### Web Interface
+<img width="1651" height="476" alt="{3F8E21B6-B1A3-4344-B7FA-34EA117E3698}" src="https://github.com/user-attachments/assets/01123282-c29e-4b2a-ae40-9a5e5b0cae44" />
 
 ---
 
