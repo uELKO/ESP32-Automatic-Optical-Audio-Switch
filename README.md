@@ -83,7 +83,6 @@ The enclosure consists of **two 3D-printed parts**:
 2. Flash ESPHome/OTA firmware
 3. Use Web UI or Home Assistant for configuration
 4. Connect device to optical audio setup
-- DIY smart-home audio integration
-
+   
 ---
 
