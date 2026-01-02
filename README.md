@@ -1,6 +1,6 @@
 NOTE: WORK IN PROGRESS! MORE INFO COMING SOON.
 
-<img width="1599" height="690" alt="{8CCD83B7-7E51-4EB5-BC00-117256F870E5}" src="https://github.com/user-attachments/assets/b21e8832-3f45-458c-bbca-89d5a4615198" />
+<img width="1199" height="518" alt="{8CCD83B7-7E51-4EB5-BC00-117256F870E5}" src="https://github.com/user-attachments/assets/b21e8832-3f45-458c-bbca-89d5a4615198" />
 
 ## Overview
 
@@ -33,6 +33,8 @@ The project is designed as a **DIY-friendly, low-cost solution**, fully configur
 
 ## How It Works
 
+<img width="962" height="507" alt="ESP32-Optical-Audio-Switch-System-Diagram drawio" src="https://github.com/user-attachments/assets/dabcfd8a-5b40-4a0b-8f13-5f10740266a0" />
+
 Each optical input is converted into a digital pulse signal using a standard TOSLINK receiver module.  
 The ESP32 continuously monitors both inputs and evaluates their activity:
 
@@ -51,6 +53,8 @@ This approach ensures:
 ---
 
 ## Hardware Overview
+
+<img width="573" height="494" alt="{08CA482D-D1EF-4FA0-8F68-E1E6B7A69B8E}" src="https://github.com/user-attachments/assets/88a98662-d8a8-4816-801d-fe976314749d" />
 
 ### Main Components
 - **ESP32-C3** microcontroller
