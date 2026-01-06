@@ -45,3 +45,8 @@ to the active (playing) channel.
 Detailed explanations, diagrams and project logs are available on: **[Project page – Hackaday.io](https://hackaday.io/project/204791-automatic-optical-audio-switch-esp32)**
 
 ---
+
+## PCBs
+If you want to buy a bare or assembled PCB of this project, use this link to support me, thanks!
+
+https://www.pcbway.com/project/shareproject/Automatic_Optical_Audio_Switch_ESP32_13712e76.html
